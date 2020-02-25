@@ -15,11 +15,11 @@ terminal-border: "0"
 
 # Show the boot menu
 + boot_menu {
-  left = 15%
+  left = 12%
   top = 30%
-  width = 45%
-  height = 60%
-  item_font = "DejaVu Regular 32"
+  width = 25%
+  height = 50%
+  item_font = "DejaVu Sans Regular 24"
   item_color = "#333333"
   selected_item_color = "#e5e5e5"
   icon_width = 64
@@ -35,11 +35,14 @@ terminal-border: "0"
 + circular_progress
 {
    id = "__timeout__"
-   left = 50%-85
-   top = 75%-85
-   width = 170
-   height = 170
+   left = 50%-100
+   top = 85%-100
+   width = 200
+   height = 200
    num_ticks = 8
-   center_bitmap = "Freepik.png"
-   tick_bitmap = "iconixar.png"
+   center_bitmap = "atom.png"
+   tick_bitmap = "tick.png"
 }
+
+
+#"tick.png" made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com
